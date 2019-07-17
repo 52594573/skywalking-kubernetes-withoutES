@@ -19,10 +19,10 @@ $ kubectl apply -f elasticsearch-svc.yaml
 
 ## Installing the Chart
 
-To install the chart with the release name `my-release`:
+To install the chart with the namespace name `sky`:
 
 ```console
-$ helm install --name my-release skywalking
+$ helm  install  --namespace  sky   .
 ```
 
 The command deploys Skywalking on the Kubernetes cluster in the default configuration. The [configuration](#configuration) section lists the parameters that can be configured during installation.
